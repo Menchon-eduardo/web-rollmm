@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: url(C:\Users\eduar\Documents\Proyectos\proyecto-web-rolmm\web-rollmm\img\fondo.jpg);
+    background-size: cover;
+}
+  
+
+header{
+    width: 50%;
+    height: 60px;
+    margin: 2px auto;
+    margin-top: 20px;
+    background: none; 
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px black;
+    
+    
+    
+    
+}
+#logo{
+    font-family: Georgia, Arial;
+    letter-spacing: 3px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+footer{
+    font-family: Verdana, Arial;
+    color: #ccc;
+    font-size: 8px;
+    text-align: center;
+
+}
