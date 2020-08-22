@@ -1,5 +1,15 @@
-#centro{
-    border: 2px black;
-    background: rgba(112, 112, 112, 0.527)
+body{
+    border: 5px solid black;
+    background: rgba(1, 247, 255, 0.781);
+    margin: 2px auto;
+    margin-top: 30px;
+    width: 90%;
+    height: 200px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Verdana, Arial;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
+

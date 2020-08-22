@@ -1,11 +1,12 @@
 import { ModuleWithProviders } from '@angular/core';
-import { Router, RouterModule } from '@angular/router';
+import { Router, RouterModule, Routes } from '@angular/router';
 
-import { InicioComponent } from "./components/inicio";
+import { InicioComponent } from "./components/inicio/inicio.component";
 
-const appRoutes: Router = [
-    { path: '', component: InicioComponent }
+const appRoutes: Routes = [
+    { path: '', component: InicioComponent },
+    { path: 'inicio', component: InicioComponent }
 ];
 
 export const appRoutingProviders : any[] =[];
-export const routing: ModuleWhithProviders = RouterModule.forRoot(appRoutes);
+export const routing: ModuleWithProviders<RouterModule> = RouterModule.forRoot(appRoutes);

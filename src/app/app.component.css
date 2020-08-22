@@ -27,10 +27,9 @@
 #menu ul a{
     font-family: "Verdana";
     color: whitesmoke;
-    margin-left: 35px;
-    margin-right: 30px;
     text-justify: auto;
     cursor: pointer;
+    margin: 2%;
 }   
 #menu ul a:hover{
     background: rgb(100, 100, 100);
