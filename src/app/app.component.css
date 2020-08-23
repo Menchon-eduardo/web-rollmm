@@ -1,8 +1,8 @@
 #cuerpo{
-    background: wheat;
+    background: #af261c;
     border: 2px black;
     border-radius: 8px;
-    height: 70px;
+    height: 100%;
     width: 80%;
     padding-left: 10px;
     padding: 10px;
@@ -12,16 +12,14 @@
 }
 #intro{
     font-family: "Verdana";
-    padding-top: 2px;
     text-align: center;
 }
 #menu{
-   
-    background: #333;
+
+    background: #d2a83e;
     width: 100%;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    border-radius: 50px;
+    
 }
 
 #menu ul a{
@@ -32,5 +30,5 @@
     margin: 2%;
 }   
 #menu ul a:hover{
-    background: rgb(100, 100, 100);
+    background: #ac5203;
 }

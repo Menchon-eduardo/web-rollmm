@@ -5,11 +5,13 @@ import { routing, appRoutingProviders} from './app.routings'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { RolComponent } from './rol/rol.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent
+    InicioComponent,
+    RolComponent
   ],
   imports: [
     BrowserModule,
